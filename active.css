@@ -107,3 +107,15 @@ h2 {
   padding: 1em;
   text-align: center;
 }
+
+h1{
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.tradingview-widget-container{
+  margin-top: 5em;
+}
+#budget, #tips{
+  margin-top: 5em;
+}
