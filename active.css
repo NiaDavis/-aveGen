@@ -119,3 +119,25 @@ h1{
 #budget, #tips{
   margin-top: 5em;
 }
+/*table css*/
+
+#table-section> table, tr {
+  margin: 1.5em;
+  border: 1px solid black;
+}
+
+caption {
+  font-size: 1.5em;
+}
+th {
+  background-color: #f98f46;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+
+tr:hover{
+  background-color: #6bc1ed;
+}
+
+/*end table css*/
