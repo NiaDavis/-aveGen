@@ -1,5 +1,6 @@
 body{
-  font-family: arial
+  font-family: arial;
+  background: #a9ebb2;
 }
 #navbar{
   margin-left: -.5em;
@@ -22,7 +23,7 @@ body{
 
 .nav-link {
   text-decoration: none;
-  color: black;
+  color:  #53aa5f;;
   list-style-type: none;
   height: 100%;
   width: 100%;
