@@ -108,7 +108,7 @@ h2 {
   text-align: center;
 }
 
-h1{
+#stocks  h1{
   text-align: center;
   letter-spacing: 1px;
 }
@@ -141,3 +141,46 @@ tr:hover{
 }
 
 /*end table css*/
+@-webkit-keyframes colors {
+  0% { background-color: red;
+  } 20% { background-color: orange;
+  } 40% { background-color: yellow;
+  } 60% { background-color: green;
+  } 80% { background-color: blue;
+  } 100% { background-color: purple;
+  }
+}
+#budget-title {
+  width: 200px;
+  padding: 1em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid red;
+  border-radius: 6px;
+  animation-name: colors;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+#tips-list {
+  text-decoration: none;
+  color: black;
+  height: 100%;
+  width: 100%;
+  letter-spacing: 1px;
+  font-weight: thin;
+  font-size: 1em;
+
+}
+#tips-list > li {
+ padding: 1em;
+}
+
+marquee {
+  width: 100%;
+  text-align:center;
+}
+
