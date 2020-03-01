@@ -58,7 +58,7 @@ body{
 }
 
 #welcome-header > img {
-  width: 25%;
+  width: 30%;
 }
 
 #title > h1 {
@@ -71,5 +71,39 @@ body{
 }
 
 #title > p {
+  text-align: center;
+}
+
+#glossary > span > dt {
+  padding: .10em;
+  color: rgb(28, 46, 46);
+  font-size: 1.25em;
+  font-weight: bold;
+  padding: em;
+  background: #53aa5f;
+}
+
+#glossary > span > dd {
+ letter-spacing: 1px;
+}
+
+#glossary {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1em;
+  border-style: dotted;
+  border-color: #53aa5f;
+  border: 2px;
+}
+#glossary > span{
+  padding: 1em;
+  max-width: 30%;
+}
+
+#glos{
+}
+
+h2 {
+  padding: 1em;
   text-align: center;
 }
